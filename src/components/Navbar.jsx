@@ -19,7 +19,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold text-white text-xl font-bold">🍽️ SANTIAGO Restaurant</h1>
+        <h1 className="text-xl font-bold text-white text-xl font-bold">🍽️ SANTIAGO RESTAURANT</h1>
         <ul className="flex space-x-6">
           <li><Link to="/" className="text-white hover:text-gray-300">Home</Link></li>
           <li><Link to="/menu" className="text-white hover:text-gray-300">Menu</Link></li>
