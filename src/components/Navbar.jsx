@@ -23,10 +23,10 @@ const Navbar = () => {
         <ul className="flex space-x-6">
           <li><Link to="/" className="text-white hover:text-gray-300">Home</Link></li>
           <li><Link to="/menu" className="text-white hover:text-gray-300">Menu</Link></li>
-          <li><Link to="/feast" className="text-white hover:text-gray-300">Feast</Link></li>
+          <li><Link to="/feast" className="text-white hover:text-gray-300">About</Link></li>
           <li><Link to="/news" className="text-white hover:text-gray-300">News</Link></li>
           <li><Link to="/contacts" className="text-white hover:text-gray-300">Contacts</Link></li>
-          <li><Link to="/location" className="text-white hover:text-gray-300">Location</Link></li>
+         
         </ul>
       </div>
     </nav>

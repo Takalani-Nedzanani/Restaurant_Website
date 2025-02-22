@@ -1,11 +1,12 @@
 {
-  "home" : "https://Takalani-Nedzanani.github.io/restaurant",
+  "home": "https://Takalani-Nedzanani.github.io/restaurant",
   "name": "restaurant",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
     "firebase": "^11.3.1",
+    "framer-motion": "^12.4.7",
     "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -14,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
